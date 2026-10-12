@@ -1,0 +1,52 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging / test / tooling artifacts
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local environment variables and credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Local editor / operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Do not commit the Kaggle chest X-ray dataset (may be several GB).
+# Download it separately and place it under data/chest_xray/ as described in README.md.
+data/chest_xray/*
+!data/chest_xray/.gitkeep
+
+# Trained model weights can be large; keep source code and metadata instead.
+*.keras
+*.h5
+*.weights.h5
+*.pt
+*.pth
+*.onnx
+*.tflite
+
+# Temporary logs
+*.log
