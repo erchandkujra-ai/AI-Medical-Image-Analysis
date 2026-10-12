@@ -6,6 +6,8 @@ An educational computer-vision project that demonstrates binary classification o
 
 ## Features
 
+![Uploading image.png…]()
+
 - Upload a chest X-ray image through a Streamlit interface.
 - Run an educational model prediction and display the class and score.
 - Train a TensorFlow/Keras image classifier using local dataset folders.
